@@ -1,0 +1,56 @@
+.header{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    &_block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_link{
+        font-size: 16px;
+        font-weight: medium;
+        color: black;
+    }
+
+    &_link:hover{
+        color: rgb(0, 255, 0);
+    }
+
+    &_item{
+        display: none;
+    }
+
+    &_insta{
+        display: none;
+    }
+
+    &_number{
+        display: none;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (min-width:640px) {
+    .header_insta{
+        display: flex;
+    }
+
+    .header_number{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .header_item{
+        display: flex;
+        gap: 30px;
+    }
+
+    .header_meinmenu{
+        display: none;
+    }
+}
+

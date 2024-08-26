@@ -1,0 +1,93 @@
+.directions{
+    background-color: white;
+
+    &_block{
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    &_title{
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 120%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    &_card_block{
+        text-align: start;
+    }
+    
+
+    &_card_number{
+        font-size: 20px;
+        font-weight: 600;
+        color: rgba(40, 43, 34, 1);
+        line-height: 145%;
+        margin-bottom: 20px;
+    }
+
+    &_card_title{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    &_card{
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+
+    &_card:hover{
+        transform: scale(1.1);
+    }
+
+    &_card_img{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width:620px) {
+    .directions_card_block{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .directions_title{
+        font-size: 46px;
+        font-weight: bold;
+        line-height: 120%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .directions_card{
+        padding-left: 30px;
+        border-left: 1px solid rgba(40, 43, 34, 0.39);
+    }
+
+    .directions_card_block{
+        padding-left: 50px;
+    }
+}
+
+@media screen and (min-width:920px) {
+    .directions_card_block{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 29px;
+    }
+
+    .directions_card_block{
+        padding-left: 100px;
+    }
+
+    .directions_title{
+        margin-bottom: 80px;
+    }
+}

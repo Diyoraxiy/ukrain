@@ -1,0 +1,82 @@
+.hero {
+    background-image: url(../../img/hero/Банер.png);
+    background-position: 50% 50%;
+    background-size: cover;
+
+    &_block {
+        text-align: center;
+    }
+
+    &_title {
+        padding-top: 120px;
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 28px;
+        line-height: 120%;
+        text-transform: uppercase;
+    }
+
+    &_text {
+        font-size: 16px;
+        color: white;
+        font-weight: medium;
+        margin-bottom: 30px;
+        line-height: 145%;
+    }
+
+    &_btn {
+        padding: 22px 70.5px;
+        background-color: rgba(174, 123, 60, 1);
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        white-space: nowrap;
+        margin-bottom: 124px;
+        cursor: pointer;
+        border: none;
+        transition: all 0.2s ease;
+    }
+
+    &_btn:hover {
+        transform: scale(1.1);
+        color: black;
+    }
+}
+
+@media screen and (min-width:620px) {
+    .hero_title {
+        font-size: 56px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero_text {
+        width: 80%;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .hero_title {
+        font-size: 56px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        width: 445px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero_text {
+        width: 537px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 150%;
+    }
+}
