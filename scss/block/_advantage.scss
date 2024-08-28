@@ -1,0 +1,99 @@
+.advantage {
+    &_block {
+      margin-bottom: 80px;
+    }
+    &_title {
+      color: rgb(40, 43, 34);
+      font-size: 24px;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    &_list {
+      margin-top: 50px;
+    }
+    &_item {
+      border-top: 2px solid rgba(40, 43, 34, 0.205);
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      padding-right: 13px;
+      gap: 15px;
+      position: relative;
+    }
+    &_varable {
+      border-bottom: 2px solid rgba(40, 43, 34, 0.174);
+    }
+    &_item__span-number {
+      opacity: 0.5;
+      color: rgb(40, 43, 34);
+      font-size: 20px;
+      font-weight: 600;
+    }
+    &_item__title {
+      color: rgb(40, 43, 34);
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    &_item__text {
+      color: rgb(40, 43, 34);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 135%;
+    }
+    &_img{
+        display: none;
+    }
+  }
+  
+  @media screen and (min-width: 998px) {
+    .advantage_block {
+      margin-bottom: 140px;
+    }
+    .advantage_title {
+      color: rgb(40, 43, 34);
+      font-size: 46px;
+      font-weight: 600;
+      margin-bottom: 80px;
+    }
+    .advantage_item {
+      display: flex;
+      gap: 613px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .advantage_item__title {
+      color: rgb(40, 43, 34);
+      font-size: 32px;
+      font-weight: 600;
+    }
+
+    .advantage_img{
+        position: absolute;
+        display: flex;
+        right: 58%;
+        padding-top: 30px;
+    }
+    .advantage_item__text {
+      opacity: 0.8;
+      color: rgb(40, 43, 34);
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    
+    .advantage_border{
+        height: 146px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+        border-left: 1px solid rgba(40, 43, 34, 0.174);
+        padding-left: 40px;
+    }
+    .advantage_hover:hover {
+      color: rgb(209, 144, 65);
+      cursor: pointer;
+    }
+  }

@@ -367,4 +367,208 @@ p {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+}
+.service_title {
+  padding-top: 80px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  color: rgb(40, 43, 34);
+  margin-bottom: 50px;
+}
+.service_text1 {
+  padding-top: 30px;
+  border-top: 1px solid rgba(40, 43, 34, 0.226);
+  border-bottom: 1px solid rgba(40, 43, 34, 0.226);
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 145%;
+  text-align: start;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 10px;
+}
+.service_text2 {
+  padding-top: 30px;
+  border-top: 1px solid rgba(40, 43, 34, 0.226);
+  border-bottom: 1px solid rgba(40, 43, 34, 0.226);
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 145%;
+  text-align: start;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 10px;
+}
+
+@media screen and (min-width: 320px) {
+  .service_text2 {
+    margin-bottom: 80px;
+  }
+}
+@media screen and (min-width: 620px) {
+  .service_title {
+    font-size: 28px;
+    line-height: 130T;
+    margin-bottom: 60px;
+  }
+  .service_text1 {
+    width: 403px;
+    padding-right: 60px;
+    border-top: none;
+  }
+  .service_text2 {
+    width: 403px;
+    border-top: none;
+    padding-left: 60px;
+    border-left: 1px solid rgba(40, 43, 34, 0.226);
+  }
+  .service_text_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-top: 1px solid rgba(40, 43, 34, 0.226);
+    border-bottom: 1px solid rgba(40, 43, 34, 0.226);
+  }
+}
+@media screen and (min-width: 1000px) {
+  .service_text2 {
+    margin-bottom: 140px;
+  }
+  .service_title {
+    font-size: 36px;
+    line-height: 130%;
+    width: 814px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.advantage_block {
+  margin-bottom: 80px;
+}
+.advantage_title {
+  color: rgb(40, 43, 34);
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+.advantage_list {
+  margin-top: 50px;
+}
+.advantage_item {
+  border-top: 2px solid rgba(40, 43, 34, 0.205);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 13px;
+  gap: 15px;
+  position: relative;
+}
+.advantage_varable {
+  border-bottom: 2px solid rgba(40, 43, 34, 0.174);
+}
+.advantage_item__span-number {
+  opacity: 0.5;
+  color: rgb(40, 43, 34);
+  font-size: 20px;
+  font-weight: 600;
+}
+.advantage_item__title {
+  color: rgb(40, 43, 34);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.advantage_item__text {
+  color: rgb(40, 43, 34);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+}
+.advantage_img {
+  display: none;
+}
+
+@media screen and (min-width: 998px) {
+  .advantage_block {
+    margin-bottom: 140px;
+  }
+  .advantage_title {
+    color: rgb(40, 43, 34);
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 80px;
+  }
+  .advantage_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 613px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .advantage_item__title {
+    color: rgb(40, 43, 34);
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .advantage_img {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    right: 58%;
+    padding-top: 30px;
+  }
+  .advantage_item__text {
+    opacity: 0.8;
+    color: rgb(40, 43, 34);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .advantage_border {
+    height: 146px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-left: 1px solid rgba(40, 43, 34, 0.174);
+    padding-left: 40px;
+  }
+  .advantage_hover:hover {
+    color: rgb(209, 144, 65);
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=main.css.map */
