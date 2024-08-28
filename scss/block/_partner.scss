@@ -1,0 +1,44 @@
+.partner{
+
+    &_title{
+        padding-top: 80px;
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    &_card_block{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &_img{
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &_road{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width:640px) {
+    .partner{
+        padding-top: 40px;
+    }
+
+    .partner_card_block{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .partner_road{
+        margin-bottom: 140px;
+    }
+}

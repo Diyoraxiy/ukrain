@@ -811,4 +811,49 @@ p {
     display: -ms-flexbox;
     display: flex;
   }
+}
+.partner_title {
+  padding-top: 80px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.partner_card_block {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.partner_img {
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.partner_road {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+
+@media screen and (min-width: 640px) {
+  .partner {
+    padding-top: 40px;
+  }
+  .partner_card_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+  }
+  .partner_road {
+    margin-bottom: 140px;
+  }
 }/*# sourceMappingURL=main.css.map */
