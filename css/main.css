@@ -654,4 +654,70 @@ p {
   .contact_block {
     gap: 150px;
   }
+}
+.work {
+  background-color: white;
+}
+.work_title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 135%;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 50px;
+}
+.work_cards {
+  text-align: start;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.work_block {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+  margin-bottom: 40px;
+}
+.work_card_number {
+  padding: 14px 14px;
+  width: 50px;
+  border: 1px solid rgba(40, 43, 34, 0.39);
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.work_card_title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.work_card_text {
+  font-size: 16px;
+  line-height: 145%;
+  font-weight: medium;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 640px) {
+  .work_card_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 60px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .work_card_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 80px;
+  }
+  .work_card_text {
+    text-align: start;
+    line-height: 25px;
+    width: 280px;
+  }
 }/*# sourceMappingURL=main.css.map */
