@@ -1,0 +1,28 @@
+.design{
+    padding-top: 40px;
+    &_title{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 135%;
+        margin-bottom: 40px;
+    }
+
+    &_img1{
+        margin-bottom: 20px;
+    }
+
+    &_img_title{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (min-width:640px) {
+    .design_img_block{
+        display: flex;
+        gap: 40px;
+    }
+}

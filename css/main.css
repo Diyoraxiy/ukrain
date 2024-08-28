@@ -16,6 +16,11 @@ ul, ol {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -719,5 +724,32 @@ p {
     text-align: start;
     line-height: 25px;
     width: 280px;
+  }
+}
+.design {
+  padding-top: 40px;
+}
+.design_title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 135%;
+  margin-bottom: 40px;
+}
+.design_img1 {
+  margin-bottom: 20px;
+}
+.design_img_title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 640px) {
+  .design_img_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 40px;
   }
 }/*# sourceMappingURL=main.css.map */
